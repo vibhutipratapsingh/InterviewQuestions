@@ -10,9 +10,6 @@ void print(vector<int> &vect){
 
 
 void maxheapify(vector<int> &vect, int index){
-		//int n = index+1;
-//		print(vect);
-//		cout<< index << endl;
 		if(index > vect.size()/2-1){
 			return;
 		}
